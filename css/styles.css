@@ -443,6 +443,9 @@ button {
     background-color: #404BBF;
     color: #FFFFFF;
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 
 
 }
@@ -454,10 +457,9 @@ button {
 */
 
 .team-section {
-
-
-
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -471,7 +473,7 @@ button {
     color: #2E2F42;
     line-height: 1.11;
     margin-bottom: 72px;
-    padding-top: 120px;
+
 
 
 }
@@ -482,7 +484,7 @@ button {
 }
 
 .people-desc {
-    padding: 32px 16px;
+    padding: 32px 0;
     text-align: center;
 
 }
@@ -552,7 +554,10 @@ button {
   |============================
 */
 
-.customers-section {}
+.customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 .container {}
@@ -567,8 +572,9 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-grey);
+    line-height: 1.1;
     margin-bottom: 72px;
-    padding-top: 120px;
+
 }
 
 .company-icons {
@@ -611,7 +617,8 @@ button {
 
 
 
-.company-icons-link:hover {
+.company-icons-link:hover,
+.company-icons-link:focus {
     border: 1px solid var(--color-ocean);
     color: var(--color-ocean);
 }
@@ -645,6 +652,15 @@ button {
 }
 
 .img-list {}
+
+.card-link {
+    display: block;
+}
+
+.card-link:hover,
+.card-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-card-container {
     padding: 32px 16px;
@@ -690,13 +706,16 @@ button {
 .footer-container {
     display: flex;
     align-items: flex-start;
-    gap: 120px;
+
+
 
 
 
 }
 
-.footer-flex {}
+.footer-flex {
+    margin-right: 120px;
+}
 
 .link-position {}
 
@@ -737,6 +756,11 @@ button {
     border-radius: 50%;
     margin: 0;
 
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
 }
 
 .social-media {
