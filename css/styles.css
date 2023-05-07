@@ -705,7 +705,7 @@ button {
 
 .footer-container {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
 
 
 
