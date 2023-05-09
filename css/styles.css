@@ -63,7 +63,7 @@ img {
 .link {
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 16px;
+
 }
 
 .list {
@@ -309,6 +309,8 @@ button {
 
 .filters-section {
     padding-top: 96px;
+    margin-bottom: 120px;
+
 }
 
 .filter-list {
@@ -730,11 +732,15 @@ button {
     width: 264px;
 
 
+
+}
+
+.footer-nav-logo {
+    margin-bottom: 17.5px;
 }
 
 .studio-footer-logo {
-    width: 71px;
-    height: 21px;
+
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
